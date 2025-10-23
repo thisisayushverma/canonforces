@@ -53,9 +53,9 @@ export default function NavigationMenu() {
                 <AiFillHome size={"1.5em"}/> <span>Home</span>
               </Link>
             </li>
-            <li className={isActive(ROUTES.MESSAGES) ? styles.active : ''}>
-              <Link href={ROUTES.MESSAGES}>
-                <SiGooglemessages size={"1.5em"}/> <span>Messages</span>
+            <li className={isActive(ROUTES.CONTESTS) ? styles.active : ''}>
+              <Link href={ROUTES.CONTESTS}>
+                <SiGooglemessages size={"1.5em"}/> <span>Contests</span>
               </Link>
             </li>
             <li className={isActive(ROUTES.STATS) ? styles.active : ''}>
@@ -63,8 +63,8 @@ export default function NavigationMenu() {
                 <FaChartBar size={"1.5em"}/> <span>Stats</span>
               </Link>
             </li>
-            <li className={isActive(ROUTES.CONTESTS) ? styles.active : ''}>
-              <Link href={ROUTES.CONTESTS}>
+            <li className={isActive(ROUTES.PRACTICE) ? styles.active : ''}>
+              <Link href={ROUTES.PRACTICE}>
                 <TbSwords size={"1.5em"}/> <span>Practise</span>
               </Link>
             </li>
